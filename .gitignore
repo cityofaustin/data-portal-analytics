@@ -1,3 +1,5 @@
+.gitignore
+
 secrets.txt
 **/secrets.txt
 
