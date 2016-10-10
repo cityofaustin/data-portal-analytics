@@ -1,10 +1,13 @@
 
 ## About this folder/project
-Austin's [open data portal](https://data.austintexas.gov) provides lots of information to city staff about how the portal is used, but it's not all in one place. Until now! The City is excited about using this data to manage the open data portal more effectively.
 
-This project contains related datasets for anyone to explore, some of which are not available to the public by default. These include site-level metrics, dataset-level metrics, and department information for context. The files were prepared by City of Austin staff, and a detailed description of their origins (along with code) can be found on github [here](https://github.com/cityofaustin/data-portal-analytics/tree/master/soc-metrics-api-deep-dive).
+Austin's [open data portal](https://data.austintexas.gov) provides lots of public data about the City of Austin. It also provides portal administrators with behind-the-scenes information about how the portal is used... but that data is mysterious, hard to handle in a spreadsheet, and not located all in one place. 
 
-## Example questions to answer
+Until now! Authorized city staff used admin credentials to grab some of this usage data and share it the public. The City of Austin wants to use this data to inform the development of its open data initiative and manage the open data portal more effectively.
+
+This project contains related datasets for anyone to explore. These include site-level metrics, dataset-level metrics, and department information for context. A detailed detailed description of how the files were prepared (along with code) can be found on github [here](https://github.com/cityofaustin/data-portal-analytics/tree/master/soc-metrics-api-deep-dive).
+
+## Example questions to answer about the data portal
 
 1. What parts of the open data portal do people seem to value most?
 2. What can we tell about who our users are?
@@ -34,3 +37,4 @@ This file contains a list of all City of Austin departments according to how the
 #### `crosswalk_to_budget_dept.csv`
 
 The City is in the process of standardizing how departments identify themselves on the data portal. In the meantime, here's a crosswalk from the department values observed in `all_views_20161003.csv` to the department names that appear in the City's budget
+
